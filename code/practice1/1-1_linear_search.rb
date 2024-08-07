@@ -5,20 +5,20 @@ A = gets.split.map(&:to_i)
 
 
 # 線形探索
-def linerserech
+def linear_search(target, array)
   exist = false
   A.each do |i|
-    if i == N
+    if i == target
       exist = true
       break
     end
   end
   # 結果出力
-  if exist == true
+  if exist
     puts "Yes"
   else
     puts "No"
   end
 end
 
-linerserech
+linear_search(N, A)
