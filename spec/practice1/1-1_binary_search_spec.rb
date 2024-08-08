@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative '../../code/practice1/1-2_binary_search.rb'
+require_relative '../../code/practice1/1-1_binary_search.rb'
 
 RSpec.describe '#binary_search' do
   it '配列に任意の要素があるときは配列のindexを返す' do
