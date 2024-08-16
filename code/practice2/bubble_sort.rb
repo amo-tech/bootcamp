@@ -21,4 +21,4 @@ def bubble_sort(arr)
   arr
 end
 
-puts bubble_sort(arr)
+# puts bubble_sort(arr)
