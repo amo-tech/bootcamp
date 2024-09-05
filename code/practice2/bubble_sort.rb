@@ -4,7 +4,6 @@
 # indexが0,1、1,2で比較していく
 # 並び変え終わるまで続けるo(n*2)
 
-arr = [6, 15, 4, 2, 8, 5, 11, 9, 7, 13]
 
 def bubble_sort(arr)
   n = arr.length
